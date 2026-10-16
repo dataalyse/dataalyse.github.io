@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+  <title>Dashboard de agência de turismo (dados demonstrativos)</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4C58F0"/><stop offset=".55" stop-color="#6D2DFC"/><stop offset="1" stop-color="#E91CC0"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D2DFC" stop-opacity=".2"/><stop offset="1" stop-color="#6D2DFC" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="#F6F7FB"/>
+  <rect x="24.5" y="24.5" width="591" height="351" rx="8" fill="#fff" stroke="#E4E6F0"/>
+  <path d="M32 24h36v352H32a8 8 0 0 1-8-8V32a8 8 0 0 1 8-8z" fill="#0B0D2A"/>
+  <rect x="36" y="38" width="20" height="20" rx="5" fill="url(#g)"/>
+  <rect x="38" y="80" width="16" height="16" rx="4" fill="#fff" opacity=".14"/>
+  <rect x="38" y="106" width="16" height="16" rx="4" fill="#8B5CFF"/>
+  <rect x="38" y="132" width="16" height="16" rx="4" fill="#fff" opacity=".14"/>
+  <rect x="38" y="158" width="16" height="16" rx="4" fill="#fff" opacity=".14"/>
+
+  <text x="88" y="52" font-size="14" font-weight="600" fill="#14172E">Agência de turismo · Comercial</text>
+  <text x="88" y="68" font-size="10" fill="#8A8DA8">Agência demonstrativa · acumulado do ano</text>
+
+  <g font-size="9.5">
+    <rect x="88.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="100" y="103" fill="#8A8DA8">Orçamentos</text>
+    <text x="100" y="128" font-size="18" font-weight="600" fill="#14172E">312</text>
+    <text x="194" y="103" text-anchor="end" font-size="9" fill="#1F7A55">+18%</text>
+
+    <rect x="219.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="231" y="103" fill="#8A8DA8">Conversão</text>
+    <text x="231" y="128" font-size="18" font-weight="600" fill="#14172E">27%</text>
+    <text x="325" y="103" text-anchor="end" font-size="9" fill="#1F7A55">+4 p.p.</text>
+
+    <rect x="350.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="362" y="103" fill="#8A8DA8">Receita</text>
+    <text x="362" y="128" font-size="18" font-weight="600" fill="#14172E">R$ 1,2 mi</text>
+    <text x="456" y="103" text-anchor="end" font-size="9" fill="#1F7A55">+11%</text>
+
+    <rect x="481.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="493" y="103" fill="#8A8DA8">Ticket médio</text>
+    <text x="493" y="128" font-size="18" font-weight="600" fill="#14172E">R$ 3.840</text>
+    <text x="587" y="103" text-anchor="end" font-size="9" fill="#1F7A55">+5%</text>
+  </g>
+
+  <rect x="88.5" y="156.5" width="330" height="204" rx="6" fill="#fff" stroke="#E4E6F0"/>
+  <text x="100" y="177" font-size="10.5" font-weight="600" fill="#14172E">Funil de orçamentos</text>
+  <g font-size="9" fill="#4A4E6B">
+    <text x="100" y="210">Solicitados</text>
+    <text x="100" y="244">Enviados</text>
+    <text x="100" y="278">Em negociação</text>
+    <text x="100" y="312">Fechados</text>
+  </g>
+  <rect x="180" y="194" width="210" height="24" rx="3" fill="url(#g)"/>
+  <rect x="180" y="228" width="180" height="24" rx="3" fill="#6D2DFC" opacity=".8"/>
+  <rect x="180" y="262" width="95" height="24" rx="3" fill="#6D2DFC" opacity=".55"/>
+  <rect x="180" y="296" width="57" height="24" rx="3" fill="#E91CC0"/>
+  <g font-size="9.5" font-weight="600">
+    <text x="190" y="210" fill="#fff">312</text>
+    <text x="190" y="244" fill="#fff">268</text>
+    <text x="283" y="278" fill="#14172E">141</text>
+    <text x="245" y="312" fill="#14172E">84</text>
+  </g>
+  <text x="100" y="346" font-size="9" fill="#8A8DA8">Conversão de orçamentos em vendas: <tspan font-weight="600" fill="#14172E">27%</tspan></text>
+
+  <rect x="430.5" y="156.5" width="170" height="204" rx="6" fill="#fff" stroke="#E4E6F0"/>
+  <text x="442" y="177" font-size="10.5" font-weight="600" fill="#14172E">Receita por destino</text>
+  <g font-size="9" fill="#4A4E6B">
+    <text x="442" y="200">Nordeste</text><text x="588" y="200" text-anchor="end" fill="#8A8DA8">34%</text>
+    <rect x="442" y="205" width="146" height="6" rx="2" fill="#F1EFFD"/><rect x="442" y="205" width="146" height="6" rx="2" fill="url(#g)"/>
+    <text x="442" y="230">Serra Gaúcha</text><text x="588" y="230" text-anchor="end" fill="#8A8DA8">22%</text>
+    <rect x="442" y="235" width="146" height="6" rx="2" fill="#F1EFFD"/><rect x="442" y="235" width="94" height="6" rx="2" fill="#6D2DFC"/>
+    <text x="442" y="260">Internacional</text><text x="588" y="260" text-anchor="end" fill="#8A8DA8">19%</text>
+    <rect x="442" y="265" width="146" height="6" rx="2" fill="#F1EFFD"/><rect x="442" y="265" width="82" height="6" rx="2" fill="#6D2DFC" opacity=".75"/>
+    <text x="442" y="290">Costa Verde</text><text x="588" y="290" text-anchor="end" fill="#8A8DA8">15%</text>
+    <rect x="442" y="295" width="146" height="6" rx="2" fill="#F1EFFD"/><rect x="442" y="295" width="64" height="6" rx="2" fill="#6D2DFC" opacity=".55"/>
+    <text x="442" y="320">Outros</text><text x="588" y="320" text-anchor="end" fill="#8A8DA8">10%</text>
+    <rect x="442" y="325" width="146" height="6" rx="2" fill="#F1EFFD"/><rect x="442" y="325" width="43" height="6" rx="2" fill="#6D2DFC" opacity=".4"/>
+  </g>
+  <text x="442" y="350" font-size="8" fill="#8A8DA8">Participação na receita</text>
+</svg>

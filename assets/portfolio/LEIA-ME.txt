@@ -1,0 +1,18 @@
+Prints reais do portfólio
+=========================
+
+Salve aqui as imagens reais dos projetos e troque o campo "imagem" em js/portfolio-data.js.
+Formato recomendado: PNG ou JPG, proporção 16:10 (ex.: 1600 x 1000 px), até ~400 KB cada.
+Lembre de anonimizar dados de clientes ou manter "demonstrativo: true".
+
+Nomes previstos:
+  dashboard-hospedagem.png
+  dashboard-restaurante.png
+  dashboard-turismo.png
+  dashboard-material-construcao.png
+  automacao-relatorios-pdf.png
+  app-cadastro-controle.png
+  site-area-aluno.png
+
+Os cards de "Veja na prática" na home (index.html) usam as três primeiras imagens;
+ao trocar, atualize também o atributo src desses três cards.

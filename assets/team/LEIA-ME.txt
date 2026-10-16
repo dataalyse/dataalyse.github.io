@@ -1,0 +1,9 @@
+Fotos dos sócios
+================
+
+Salve as fotos com estes nomes exatos:
+  thaina.jpg
+  douglas.jpg
+
+Formato: retrato, proporção 5:6 (ex.: 600 x 720 px), JPG até ~200 KB.
+Enquanto os arquivos não existirem, a página Sobre mostra as iniciais em um círculo com o gradiente da marca.

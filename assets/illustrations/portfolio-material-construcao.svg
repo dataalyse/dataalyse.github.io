@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+  <title>Dashboard de loja de material de construção (dados demonstrativos)</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4C58F0"/><stop offset=".55" stop-color="#6D2DFC"/><stop offset="1" stop-color="#E91CC0"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="#F6F7FB"/>
+  <rect x="24.5" y="24.5" width="591" height="351" rx="8" fill="#fff" stroke="#E4E6F0"/>
+  <path d="M32 24h36v352H32a8 8 0 0 1-8-8V32a8 8 0 0 1 8-8z" fill="#0B0D2A"/>
+  <rect x="36" y="38" width="20" height="20" rx="5" fill="url(#g)"/>
+  <rect x="38" y="80" width="16" height="16" rx="4" fill="#fff" opacity=".14"/>
+  <rect x="38" y="106" width="16" height="16" rx="4" fill="#fff" opacity=".14"/>
+  <rect x="38" y="132" width="16" height="16" rx="4" fill="#8B5CFF"/>
+  <rect x="38" y="158" width="16" height="16" rx="4" fill="#fff" opacity=".14"/>
+
+  <text x="88" y="52" font-size="14" font-weight="600" fill="#14172E">Loja de materiais · Estoque e vendas</text>
+  <text x="88" y="68" font-size="10" fill="#8A8DA8">Loja demonstrativa · últimos 90 dias</text>
+
+  <g font-size="9.5">
+    <rect x="88.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="100" y="103" fill="#8A8DA8">Giro de estoque</text>
+    <text x="100" y="128" font-size="18" font-weight="600" fill="#14172E">4,6x</text>
+    <text x="194" y="128" text-anchor="end" font-size="9" fill="#1F7A55">+0,4</text>
+
+    <rect x="219.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="231" y="103" fill="#8A8DA8">Margem média</text>
+    <text x="231" y="128" font-size="18" font-weight="600" fill="#14172E">28,4%</text>
+    <text x="325" y="128" text-anchor="end" font-size="9" fill="#1F7A55">+1,5 p.p.</text>
+
+    <rect x="350.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="362" y="103" fill="#8A8DA8">Itens curva A</text>
+    <text x="362" y="128" font-size="18" font-weight="600" fill="#14172E">182</text>
+    <text x="456" y="128" text-anchor="end" font-size="9" fill="#8A8DA8">de 2.430</text>
+
+    <rect x="481.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="493" y="103" fill="#8A8DA8">Vendas</text>
+    <text x="493" y="128" font-size="18" font-weight="600" fill="#14172E">R$ 412k</text>
+    <text x="587" y="128" text-anchor="end" font-size="9" fill="#1F7A55">+6,3%</text>
+  </g>
+
+  <rect x="88.5" y="156.5" width="330" height="204" rx="6" fill="#fff" stroke="#E4E6F0"/>
+  <text x="100" y="177" font-size="10.5" font-weight="600" fill="#14172E">Curva ABC por categoria</text>
+  <g stroke="#EEF0F6"><path d="M100 335h306M100 265h306M100 195h306"/></g>
+  <path d="M100 223h306" stroke="#8A8DA8" stroke-dasharray="3 4" opacity=".7"/>
+  <text x="406" y="219" text-anchor="end" font-size="8" fill="#8A8DA8">80%</text>
+  <g>
+    <rect x="104" y="215" width="22" height="120" rx="2" fill="#6D2DFC"/>
+    <rect x="134.6" y="245" width="22" height="90" rx="2" fill="#6D2DFC"/>
+    <rect x="165.2" y="265" width="22" height="70" rx="2" fill="#6D2DFC"/>
+    <rect x="195.8" y="280" width="22" height="55" rx="2" fill="#6D2DFC"/>
+    <rect x="226.4" y="290" width="22" height="45" rx="2" fill="#6D2DFC"/>
+    <rect x="257" y="300" width="22" height="35" rx="2" fill="#B9A6FF"/>
+    <rect x="287.6" y="305" width="22" height="30" rx="2" fill="#B9A6FF"/>
+    <rect x="318.2" y="310" width="22" height="25" rx="2" fill="#B9A6FF"/>
+    <rect x="348.8" y="315" width="22" height="20" rx="2" fill="#DCD5FC"/>
+    <rect x="379.4" y="325" width="22" height="10" rx="2" fill="#DCD5FC"/>
+  </g>
+  <polyline points="115,301.4 145.6,276.2 176.2,256.6 206.8,241.2 237.4,228.4 268,218.8 298.6,210.4 329.2,203.4 359.8,197.8 390.4,195" fill="none" stroke="#E91CC0" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#fff" stroke="#E91CC0" stroke-width="1.5">
+    <circle cx="115" cy="301.4" r="2.6"/><circle cx="176.2" cy="256.6" r="2.6"/><circle cx="237.4" cy="228.4" r="2.6"/><circle cx="298.6" cy="210.4" r="2.6"/><circle cx="359.8" cy="197.8" r="2.6"/>
+  </g>
+  <g font-size="8.5" font-weight="600" text-anchor="middle">
+    <text x="176" y="350" fill="#6D2DFC">Classe A</text>
+    <text x="299" y="350" fill="#8B5CFF">Classe B</text>
+    <text x="375" y="350" fill="#8A8DA8">Classe C</text>
+  </g>
+
+  <rect x="430.5" y="156.5" width="170" height="204" rx="6" fill="#fff" stroke="#E4E6F0"/>
+  <text x="442" y="177" font-size="10.5" font-weight="600" fill="#14172E">Vendas por vendedor</text>
+  <g font-size="9" fill="#4A4E6B">
+    <circle cx="450" cy="203" r="8" fill="#EEEAFE"/><text x="450" y="206" text-anchor="middle" font-size="8" font-weight="600" fill="#6D2DFC">1</text>
+    <text x="464" y="200">Vendedor 01</text><text x="588" y="200" text-anchor="end" font-weight="600" fill="#14172E">R$ 96k</text>
+    <rect x="464" y="205" width="124" height="4" rx="2" fill="#F1EFFD"/><rect x="464" y="205" width="124" height="4" rx="2" fill="url(#g)"/>
+
+    <circle cx="450" cy="233" r="8" fill="#EEEAFE"/><text x="450" y="236" text-anchor="middle" font-size="8" font-weight="600" fill="#6D2DFC">2</text>
+    <text x="464" y="230">Vendedor 02</text><text x="588" y="230" text-anchor="end" font-weight="600" fill="#14172E">R$ 88k</text>
+    <rect x="464" y="235" width="124" height="4" rx="2" fill="#F1EFFD"/><rect x="464" y="235" width="114" height="4" rx="2" fill="#6D2DFC"/>
+
+    <circle cx="450" cy="263" r="8" fill="#EEEAFE"/><text x="450" y="266" text-anchor="middle" font-size="8" font-weight="600" fill="#6D2DFC">3</text>
+    <text x="464" y="260">Vendedor 03</text><text x="588" y="260" text-anchor="end" font-weight="600" fill="#14172E">R$ 81k</text>
+    <rect x="464" y="265" width="124" height="4" rx="2" fill="#F1EFFD"/><rect x="464" y="265" width="105" height="4" rx="2" fill="#6D2DFC" opacity=".75"/>
+
+    <circle cx="450" cy="293" r="8" fill="#EEEAFE"/><text x="450" y="296" text-anchor="middle" font-size="8" font-weight="600" fill="#6D2DFC">4</text>
+    <text x="464" y="290">Vendedor 04</text><text x="588" y="290" text-anchor="end" font-weight="600" fill="#14172E">R$ 74k</text>
+    <rect x="464" y="295" width="124" height="4" rx="2" fill="#F1EFFD"/><rect x="464" y="295" width="96" height="4" rx="2" fill="#6D2DFC" opacity=".55"/>
+
+    <circle cx="450" cy="323" r="8" fill="#EEEAFE"/><text x="450" y="326" text-anchor="middle" font-size="8" font-weight="600" fill="#6D2DFC">5</text>
+    <text x="464" y="320">Vendedor 05</text><text x="588" y="320" text-anchor="end" font-weight="600" fill="#14172E">R$ 73k</text>
+    <rect x="464" y="325" width="124" height="4" rx="2" fill="#F1EFFD"/><rect x="464" y="325" width="94" height="4" rx="2" fill="#6D2DFC" opacity=".4"/>
+  </g>
+  <text x="442" y="350" font-size="8" fill="#8A8DA8">Meta individual: R$ 80k</text>
+</svg>

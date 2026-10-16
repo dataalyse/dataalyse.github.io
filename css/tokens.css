@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Datalyse — Design tokens
+   Paleta da marca mantida exatamente; superfícies claras + seções marinho.
+   ========================================================================== */
+
+:root {
+  /* Marca */
+  --blue: #232B85;
+  --violet: #6D2DFC;
+  --pink: #E91CC0;
+  --blue-bright: #4C58F0;
+  --violet-bright: #8B5CFF;
+  --pink-bright: #F23FD1;
+  --brand-gradient: linear-gradient(115deg, #4C58F0, #6D2DFC, #E91CC0);
+
+  /* Superfícies */
+  --white: #FFFFFF;
+  --ice: #F6F7FB;
+  --navy: #0B0D2A;
+  --navy-2: #121539;          /* cards sobre marinho */
+  --navy-3: #1A1E4A;
+
+  /* Texto (claro) */
+  --text-strong: #14172E;     /* títulos */
+  --text: #4A4E6B;            /* corpo */
+  --text-soft: #8A8DA8;       /* apoio — usar só em textos grandes ou decorativos */
+  --text-soft-aa: #686B89;    /* apoio em textos pequenos (contraste AA) */
+  --accent-text: #5B23E0;     /* violeta para links e eyebrows em fundo claro (AA) */
+
+  /* Texto (marinho) */
+  --on-navy-strong: #FFFFFF;
+  --on-navy: rgba(255, 255, 255, 0.74);
+  --on-navy-soft: rgba(255, 255, 255, 0.56);
+  --on-navy-accent: #B7A2FF;
+
+  /* Linhas */
+  --line: #E4E6F0;
+  --line-strong: #D3D6E4;
+  --line-navy: rgba(255, 255, 255, 0.10);
+  --line-navy-strong: rgba(255, 255, 255, 0.20);
+
+  /* Forma */
+  --radius: 8px;
+  --radius-sm: 6px;
+  --radius-pill: 999px;
+
+  /* Sombras — muito sutis */
+  --shadow-xs: 0 1px 2px rgba(20, 23, 46, 0.04);
+  --shadow-sm: 0 1px 2px rgba(20, 23, 46, 0.04), 0 4px 12px rgba(20, 23, 46, 0.04);
+  --shadow-md: 0 2px 4px rgba(20, 23, 46, 0.04), 0 12px 32px rgba(20, 23, 46, 0.07);
+  --shadow-lg: 0 24px 60px rgba(5, 6, 30, 0.35);
+
+  /* Tipografia */
+  --font-display: 'IBM Plex Sans', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', Consolas, monospace;
+  --font-wordmark: 'Quicksand', 'Nunito', 'Segoe UI', system-ui, sans-serif; /* letra do logo — usar SEMPRE no nome "datalyse" */
+
+  --fs-hero: clamp(2.375rem, 3.4vw + 1rem, 4rem);       /* 38 → 64px */
+  --fs-page-title: clamp(2.125rem, 2.6vw + 1rem, 3.25rem);
+  --fs-h2: clamp(1.75rem, 1.6vw + 1rem, 2.625rem);      /* 28 → 42px */
+  --fs-h3: 1.25rem;
+  --fs-lead: clamp(1.0625rem, 0.4vw + 0.95rem, 1.25rem);
+  --fs-body: 1.0625rem;                                 /* 17px */
+  --fs-small: 0.9375rem;
+  --fs-eyebrow: 0.75rem;                                /* 12px */
+
+  --lh-body: 1.65;
+  --lh-tight: 1.1;
+
+  /* Layout */
+  --container: 1240px;
+  --gutter: 24px;
+  --header-h: 76px;
+  --section-y: clamp(72px, 9vw, 128px);
+
+  /* Movimento */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur: 0.35s;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --gutter: 20px;
+    --header-h: 66px;
+  }
+}
+
+@media (max-width: 420px) {
+  :root { --gutter: 16px; }
+}

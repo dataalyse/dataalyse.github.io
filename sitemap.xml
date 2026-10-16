@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- EDITAR: trocar https://SEU-DOMINIO pelo domínio definitivo e reativar a linha Sitemap no robots.txt -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://SEU-DOMINIO/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://SEU-DOMINIO/solucoes.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://SEU-DOMINIO/segmentos.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://SEU-DOMINIO/portfolio.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://SEU-DOMINIO/sobre.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://SEU-DOMINIO/contato.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+</urlset>

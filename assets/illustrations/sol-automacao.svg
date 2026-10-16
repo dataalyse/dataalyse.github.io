@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+  <title>Ilustração: automação de processos</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4C58F0"/><stop offset=".55" stop-color="#6D2DFC"/><stop offset="1" stop-color="#E91CC0"/></linearGradient>
+    <linearGradient id="gv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4C58F0"/><stop offset=".55" stop-color="#6D2DFC"/><stop offset="1" stop-color="#E91CC0"/></linearGradient>
+  </defs>
+  <!-- conectores -->
+  <path d="M280 96v42" stroke="url(#gv)" stroke-width="2"/>
+  <path d="M280 206 C280 236 150 226 150 262" fill="none" stroke="#B9A6FF" stroke-width="2"/>
+  <path d="M280 206 C280 236 410 226 410 262" fill="none" stroke="#B9A6FF" stroke-width="2"/>
+  <path d="M150 314v26 M410 314v26" stroke="#DCD5FC" stroke-width="2" stroke-dasharray="4 4"/>
+  <circle cx="280" cy="138" r="3.5" fill="#6D2DFC"/><circle cx="150" cy="262" r="3.5" fill="#6D2DFC"/><circle cx="410" cy="262" r="3.5" fill="#E91CC0"/>
+
+  <!-- gatilho -->
+  <rect x="180.5" y="40.5" width="200" height="56" rx="8" fill="#0B0D2A"/>
+  <rect x="196" y="56" width="26" height="26" rx="6" fill="url(#g)"/>
+  <path d="M209 62v7l5 3" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="209" cy="69" r="8.5" fill="none" stroke="#fff" stroke-width="1.6"/>
+  <rect x="234" y="58" width="56" height="5" rx="2.5" fill="#B7A2FF"/>
+  <rect x="234" y="70" width="120" height="7" rx="3.5" fill="#fff"/>
+
+  <!-- condição -->
+  <rect x="190.5" y="138.5" width="180" height="68" rx="8" fill="#fff" stroke="#E4E6F0"/>
+  <path d="M214 160l12 12-12 12-12-12z" fill="#EEEAFE" stroke="#6D2DFC" stroke-width="1.5"/>
+  <rect x="242" y="160" width="92" height="7" rx="3.5" fill="#14172E"/>
+  <rect x="242" y="174" width="64" height="5" rx="2.5" fill="#DCDFEA"/>
+
+  <!-- ações -->
+  <rect x="60.5" y="262.5" width="180" height="52" rx="8" fill="#fff" stroke="#E4E6F0"/>
+  <rect x="76" y="276" width="24" height="24" rx="6" fill="#EEEAFE"/>
+  <path d="M82 282h12v12H82zM82 282l6 5 6-5" fill="none" stroke="#6D2DFC" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="112" y="280" width="98" height="6" rx="3" fill="#14172E"/>
+  <rect x="112" y="292" width="64" height="5" rx="2.5" fill="#DCDFEA"/>
+
+  <rect x="320.5" y="262.5" width="180" height="52" rx="8" fill="#fff" stroke="#E4E6F0"/>
+  <rect x="336" y="276" width="24" height="24" rx="6" fill="#FCE8F7"/>
+  <path d="M343 281h8l3 3v11h-11z M346 288h5 M346 291h5" fill="none" stroke="#E91CC0" stroke-width="1.4" stroke-linejoin="round"/>
+  <rect x="372" y="280" width="98" height="6" rx="3" fill="#14172E"/>
+  <rect x="372" y="292" width="64" height="5" rx="2.5" fill="#DCDFEA"/>
+
+  <!-- registro -->
+  <rect x="60.5" y="340.5" width="440" height="44" rx="8" fill="#F6F7FB" stroke="#E4E6F0"/>
+  <circle cx="84" cy="362.5" r="8" fill="#E6F4EE"/>
+  <path d="M80.5 362.5l2.5 2.5 4.5-4.5" fill="none" stroke="#1F7A55" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="102" y="359" width="150" height="7" rx="3.5" fill="#4A4E6B" opacity=".6"/>
+  <rect x="400" y="356" width="84" height="14" rx="7" fill="#E6F4EE"/>
+  <rect x="412" y="361" width="60" height="4" rx="2" fill="#1F7A55" opacity=".7"/>
+</svg>

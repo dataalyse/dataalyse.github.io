@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+  <title>Dashboard de restaurante (dados demonstrativos)</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4C58F0"/><stop offset=".55" stop-color="#6D2DFC"/><stop offset="1" stop-color="#E91CC0"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="#F6F7FB"/>
+  <rect x="24.5" y="24.5" width="591" height="351" rx="8" fill="#fff" stroke="#E4E6F0"/>
+  <path d="M32 24h36v352H32a8 8 0 0 1-8-8V32a8 8 0 0 1 8-8z" fill="#0B0D2A"/>
+  <rect x="36" y="38" width="20" height="20" rx="5" fill="url(#g)"/>
+  <rect x="38" y="80" width="16" height="16" rx="4" fill="#8B5CFF"/>
+  <rect x="38" y="106" width="16" height="16" rx="4" fill="#fff" opacity=".14"/>
+  <rect x="38" y="132" width="16" height="16" rx="4" fill="#fff" opacity=".14"/>
+  <rect x="38" y="158" width="16" height="16" rx="4" fill="#fff" opacity=".14"/>
+
+  <text x="88" y="52" font-size="14" font-weight="600" fill="#14172E">Restaurante · Vendas</text>
+  <text x="88" y="68" font-size="10" fill="#8A8DA8">Restaurante demonstrativo · mês atual</text>
+
+  <g font-size="9.5">
+    <rect x="88.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="100" y="103" fill="#8A8DA8">Ticket médio</text>
+    <text x="100" y="128" font-size="18" font-weight="600" fill="#14172E">R$ 68,90</text>
+    <text x="194" y="103" text-anchor="end" font-size="9" fill="#1F7A55">+3,4%</text>
+
+    <rect x="219.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="231" y="103" fill="#8A8DA8">CMV</text>
+    <text x="231" y="128" font-size="18" font-weight="600" fill="#14172E">31,2%</text>
+    <text x="325" y="103" text-anchor="end" font-size="9" fill="#1F7A55">−1,1 p.p.</text>
+
+    <rect x="350.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="362" y="103" fill="#8A8DA8">Pedidos</text>
+    <text x="362" y="128" font-size="18" font-weight="600" fill="#14172E">4.218</text>
+    <text x="456" y="103" text-anchor="end" font-size="9" fill="#1F7A55">+7%</text>
+
+    <rect x="481.5" y="84.5" width="118" height="58" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <text x="493" y="103" fill="#8A8DA8">Faturamento</text>
+    <text x="493" y="128" font-size="18" font-weight="600" fill="#14172E">R$ 290,6k</text>
+    <text x="587" y="103" text-anchor="end" font-size="9" fill="#1F7A55">+10%</text>
+  </g>
+
+  <rect x="88.5" y="156.5" width="330" height="204" rx="6" fill="#fff" stroke="#E4E6F0"/>
+  <text x="100" y="177" font-size="10.5" font-weight="600" fill="#14172E">Movimento por dia e horário</text>
+  <g font-size="8" fill="#8A8DA8" text-anchor="end">
+    <text x="113" y="202.5">Seg</text><text x="113" y="223.5">Ter</text><text x="113" y="244.5">Qua</text><text x="113" y="265.5">Qui</text>
+    <text x="113" y="286.5">Sex</text><text x="113" y="307.5">Sáb</text><text x="113" y="328.5">Dom</text>
+  </g>
+  <g>
+    <!-- Seg -->
+    <g transform="translate(0 190)">
+      <rect x="120" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="144" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="168" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="192" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="216" width="21" height="18" rx="2" fill="#F1EFFD"/><rect x="240" width="21" height="18" rx="2" fill="#F1EFFD"/><rect x="264" width="21" height="18" rx="2" fill="#F1EFFD"/><rect x="288" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="312" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="336" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="360" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="384" width="21" height="18" rx="2" fill="#F1EFFD"/>
+    </g>
+    <!-- Ter -->
+    <g transform="translate(0 211)">
+      <rect x="120" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="144" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="168" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="192" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="216" width="21" height="18" rx="2" fill="#F1EFFD"/><rect x="240" width="21" height="18" rx="2" fill="#F1EFFD"/><rect x="264" width="21" height="18" rx="2" fill="#F1EFFD"/><rect x="288" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="312" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="336" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="360" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="384" width="21" height="18" rx="2" fill="#F1EFFD"/>
+    </g>
+    <!-- Qua -->
+    <g transform="translate(0 232)">
+      <rect x="120" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="144" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="168" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="192" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="216" width="21" height="18" rx="2" fill="#F1EFFD"/><rect x="240" width="21" height="18" rx="2" fill="#F1EFFD"/><rect x="264" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="288" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="312" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="336" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="360" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="384" width="21" height="18" rx="2" fill="#F1EFFD"/>
+    </g>
+    <!-- Qui -->
+    <g transform="translate(0 253)">
+      <rect x="120" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="144" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="168" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="192" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="216" width="21" height="18" rx="2" fill="#F1EFFD"/><rect x="240" width="21" height="18" rx="2" fill="#F1EFFD"/><rect x="264" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="288" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="312" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="336" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="360" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="384" width="21" height="18" rx="2" fill="#DCD5FC"/>
+    </g>
+    <!-- Sex -->
+    <g transform="translate(0 274)">
+      <rect x="120" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="144" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="168" width="21" height="18" rx="2" fill="#6D2DFC"/><rect x="192" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="216" width="21" height="18" rx="2" fill="#F1EFFD"/><rect x="240" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="264" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="288" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="312" width="21" height="18" rx="2" fill="#6D2DFC"/><rect x="336" width="21" height="18" rx="2" fill="#E91CC0"/><rect x="360" width="21" height="18" rx="2" fill="#6D2DFC"/><rect x="384" width="21" height="18" rx="2" fill="#B9A6FF"/>
+    </g>
+    <!-- Sáb -->
+    <g transform="translate(0 295)">
+      <rect x="120" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="144" width="21" height="18" rx="2" fill="#6D2DFC"/><rect x="168" width="21" height="18" rx="2" fill="#E91CC0"/><rect x="192" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="216" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="240" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="264" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="288" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="312" width="21" height="18" rx="2" fill="#6D2DFC"/><rect x="336" width="21" height="18" rx="2" fill="#E91CC0"/><rect x="360" width="21" height="18" rx="2" fill="#E91CC0"/><rect x="384" width="21" height="18" rx="2" fill="#8B5CFF"/>
+    </g>
+    <!-- Dom -->
+    <g transform="translate(0 316)">
+      <rect x="120" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="144" width="21" height="18" rx="2" fill="#6D2DFC"/><rect x="168" width="21" height="18" rx="2" fill="#E91CC0"/><rect x="192" width="21" height="18" rx="2" fill="#6D2DFC"/><rect x="216" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="240" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="264" width="21" height="18" rx="2" fill="#DCD5FC"/><rect x="288" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="312" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="336" width="21" height="18" rx="2" fill="#8B5CFF"/><rect x="360" width="21" height="18" rx="2" fill="#B9A6FF"/><rect x="384" width="21" height="18" rx="2" fill="#DCD5FC"/>
+    </g>
+  </g>
+  <g font-size="8" fill="#8A8DA8" text-anchor="middle">
+    <text x="130.5" y="350">11h</text><text x="178.5" y="350">13h</text><text x="226.5" y="350">15h</text>
+    <text x="274.5" y="350">17h</text><text x="322.5" y="350">19h</text><text x="370.5" y="350">21h</text>
+  </g>
+
+  <rect x="430.5" y="156.5" width="170" height="204" rx="6" fill="#fff" stroke="#E4E6F0"/>
+  <text x="442" y="177" font-size="10.5" font-weight="600" fill="#14172E">Mais vendidos</text>
+  <g font-size="9" fill="#4A4E6B">
+    <text x="442" y="200">Prato executivo</text>
+    <rect x="442" y="205" width="146" height="6" rx="2" fill="#F1EFFD"/><rect x="442" y="205" width="146" height="6" rx="2" fill="url(#g)"/>
+    <text x="442" y="230">Pizza margherita</text>
+    <rect x="442" y="235" width="146" height="6" rx="2" fill="#F1EFFD"/><rect x="442" y="235" width="120" height="6" rx="2" fill="#6D2DFC"/>
+    <text x="442" y="260">Hambúrguer da casa</text>
+    <rect x="442" y="265" width="146" height="6" rx="2" fill="#F1EFFD"/><rect x="442" y="265" width="104" height="6" rx="2" fill="#6D2DFC" opacity=".75"/>
+    <text x="442" y="290">Risoto de camarão</text>
+    <rect x="442" y="295" width="146" height="6" rx="2" fill="#F1EFFD"/><rect x="442" y="295" width="79" height="6" rx="2" fill="#6D2DFC" opacity=".55"/>
+    <text x="442" y="320">Suco natural</text>
+    <rect x="442" y="325" width="146" height="6" rx="2" fill="#F1EFFD"/><rect x="442" y="325" width="69" height="6" rx="2" fill="#6D2DFC" opacity=".4"/>
+  </g>
+  <text x="442" y="350" font-size="8" fill="#8A8DA8">Top 5 · por quantidade</text>
+</svg>

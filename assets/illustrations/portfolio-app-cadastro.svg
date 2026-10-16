@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+  <title>App de cadastro e controle interno (ilustração demonstrativa)</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4C58F0"/><stop offset=".55" stop-color="#6D2DFC"/><stop offset="1" stop-color="#E91CC0"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="#F6F7FB"/>
+
+  <!-- Tela de lista (desktop) -->
+  <rect x="32.5" y="48.5" width="400" height="314" rx="8" fill="#fff" stroke="#E4E6F0"/>
+  <path d="M40 48h385a8 8 0 0 1 8 8v26H32V56a8 8 0 0 1 8-8z" fill="#0B0D2A"/>
+  <rect x="46" y="58" width="16" height="16" rx="4" fill="url(#g)"/>
+  <text x="72" y="70" font-size="11" font-weight="600" fill="#fff">Controle de solicitações</text>
+  <circle cx="416" cy="66" r="8" fill="#fff" fill-opacity=".12"/>
+
+  <rect x="48.5" y="96.5" width="170" height="26" rx="5" fill="#F6F7FB" stroke="#E4E6F0"/>
+  <circle cx="61" cy="108.5" r="4" fill="none" stroke="#8A8DA8" stroke-width="1.3"/><path d="M64 111.5l3 3" stroke="#8A8DA8" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="74" y="113" font-size="9" fill="#8A8DA8">Buscar por item ou setor</text>
+  <rect x="226.5" y="96.5" width="64" height="26" rx="5" fill="#fff" stroke="#E4E6F0"/>
+  <text x="238" y="113" font-size="9" fill="#4A4E6B">Status ▾</text>
+  <rect x="340" y="96" width="76" height="27" rx="5" fill="url(#g)"/>
+  <text x="378" y="113" text-anchor="middle" font-size="9.5" font-weight="600" fill="#fff">+ Novo</text>
+
+  <g font-size="8" fill="#8A8DA8" font-family="'IBM Plex Mono', Consolas, monospace" letter-spacing=".6">
+    <text x="56" y="146">Nº</text><text x="96" y="146">ITEM</text><text x="222" y="146">SETOR</text><text x="330" y="146">STATUS</text>
+  </g>
+  <path d="M48 154.5h368" stroke="#E4E6F0"/>
+  <g font-size="9.5" fill="#14172E">
+    <text x="56" y="176" fill="#8A8DA8">0241</text><text x="96" y="176">Notebook p/ financeiro</text><text x="222" y="176" fill="#4A4E6B">Financeiro</text>
+    <rect x="330" y="165" width="58" height="16" rx="8" fill="#E6F4EE"/><text x="359" y="176" text-anchor="middle" font-size="8.5" fill="#1F7A55">Aprovado</text>
+    <path d="M48 190.5h368" stroke="#F0F1F6"/>
+
+    <text x="56" y="210" fill="#8A8DA8">0240</text><text x="96" y="210">Manutenção do ar</text><text x="222" y="210" fill="#4A4E6B">Operações</text>
+    <rect x="330" y="199" width="64" height="16" rx="8" fill="#EEEAFE"/><text x="362" y="210" text-anchor="middle" font-size="8.5" fill="#5B23E0">Em análise</text>
+    <path d="M48 224.5h368" stroke="#F0F1F6"/>
+
+    <text x="56" y="244" fill="#8A8DA8">0239</text><text x="96" y="244">Uniformes equipe B</text><text x="222" y="244" fill="#4A4E6B">RH</text>
+    <rect x="330" y="233" width="58" height="16" rx="8" fill="#FCE8F7"/><text x="359" y="244" text-anchor="middle" font-size="8.5" fill="#B0168F">Pendente</text>
+    <path d="M48 258.5h368" stroke="#F0F1F6"/>
+
+    <text x="56" y="278" fill="#8A8DA8">0238</text><text x="96" y="278">Licenças de software</text><text x="222" y="278" fill="#4A4E6B">TI</text>
+    <rect x="330" y="267" width="58" height="16" rx="8" fill="#E6F4EE"/><text x="359" y="278" text-anchor="middle" font-size="8.5" fill="#1F7A55">Aprovado</text>
+    <path d="M48 292.5h368" stroke="#F0F1F6"/>
+
+    <text x="56" y="312" fill="#8A8DA8">0237</text><text x="96" y="312">Material de escritório</text><text x="222" y="312" fill="#4A4E6B">Administrativo</text>
+    <rect x="330" y="301" width="58" height="16" rx="8" fill="#E6F4EE"/><text x="359" y="312" text-anchor="middle" font-size="8.5" fill="#1F7A55">Aprovado</text>
+  </g>
+  <text x="56" y="344" font-size="8.5" fill="#8A8DA8">Exibindo 5 de 241 registros</text>
+
+  <!-- Celular -->
+  <rect x="456" y="34" width="150" height="320" rx="20" fill="#0B0D2A"/>
+  <rect x="463" y="41" width="136" height="306" rx="14" fill="#fff"/>
+  <rect x="512" y="47" width="38" height="6" rx="3" fill="#0B0D2A"/>
+  <text x="475" y="78" font-size="11.5" font-weight="600" fill="#14172E">Nova solicitação</text>
+  <rect x="475" y="84" width="28" height="2" rx="1" fill="url(#g)"/>
+  <g font-size="8" fill="#4A4E6B">
+    <text x="475" y="104">Item</text>
+    <rect x="475.5" y="108.5" width="112" height="22" rx="4" fill="#fff" stroke="#D3D6E4"/>
+    <text x="482" y="123" font-size="8.5" fill="#14172E">Cadeira ergonômica</text>
+    <text x="475" y="146">Setor</text>
+    <rect x="475.5" y="150.5" width="112" height="22" rx="4" fill="#fff" stroke="#D3D6E4"/>
+    <text x="482" y="165" font-size="8.5" fill="#14172E">Atendimento</text>
+    <path d="M574 160l3 3 3-3" fill="none" stroke="#8A8DA8" stroke-width="1.2"/>
+    <text x="475" y="188">Quantidade</text>
+    <rect x="475.5" y="192.5" width="52" height="22" rx="4" fill="#fff" stroke="#6D2DFC"/>
+    <text x="482" y="207" font-size="8.5" fill="#14172E">4</text>
+    <text x="475" y="230">Observações</text>
+    <rect x="475.5" y="234.5" width="112" height="44" rx="4" fill="#fff" stroke="#D3D6E4"/>
+    <rect x="482" y="243" width="86" height="3" rx="1.5" fill="#E4E6F0"/><rect x="482" y="251" width="64" height="3" rx="1.5" fill="#E4E6F0"/>
+  </g>
+  <rect x="475" y="292" width="112" height="28" rx="5" fill="url(#g)"/>
+  <text x="531" y="310" text-anchor="middle" font-size="9.5" font-weight="600" fill="#fff">Enviar</text>
+  <rect x="510" y="334" width="42" height="3" rx="1.5" fill="#14172E" opacity=".2"/>
+</svg>

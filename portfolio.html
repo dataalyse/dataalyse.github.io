@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio — Dashboards, automações, aplicativos e sites | Datalyse</title>
+  <meta name="description" content="Exemplos de dashboards em Power BI, automações, aplicativos internos e sites desenvolvidos pela Datalyse. Os dados exibidos são demonstrativos.">
+  <meta name="theme-color" content="#0B0D2A">
+  <!-- DOMÍNIO: quando o domínio estiver registrado, descomente as linhas canonical, og:url e og:image e troque SEU-DOMINIO -->
+  <!-- <link rel="canonical" href="https://SEU-DOMINIO/portfolio.html"> -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Datalyse">
+  <meta property="og:title" content="Portfólio | Datalyse">
+  <meta property="og:description" content="Exemplos de soluções que desenvolvemos. Os dados exibidos são demonstrativos.">
+  <!-- <meta property="og:url" content="https://SEU-DOMINIO/portfolio.html"> -->
+  <!-- <meta property="og:image" content="https://SEU-DOMINIO/assets/og-image.png"> -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@500;600&family=Inter:wght@400;500;600&family=Quicksand:wght@400;500&display=swap">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body data-page="portfolio">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" data-component="header"></header>
+
+  <main id="conteudo">
+
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="navy-grid" aria-hidden="true"></div>
+      <div class="navy-glow" aria-hidden="true"></div>
+      <div class="container">
+        <p class="eyebrow eyebrow--dot"><span class="signal-dot" aria-hidden="true"></span>Portfólio</p>
+        <h1 id="page-title">Portfólio</h1>
+        <p>Exemplos de soluções que desenvolvemos. Os dados exibidos são demonstrativos.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Projetos">
+      <div class="container">
+        <ul class="filters" id="portfolio-filters" role="list" aria-label="Filtrar por categoria"></ul>
+        <p class="sr-only" id="portfolio-status" role="status" aria-live="polite"></p>
+        <ul class="work-grid" id="portfolio-grid" role="list"></ul>
+        <noscript><p class="work-empty">Ative o JavaScript para ver os projetos do portfólio.</p></noscript>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="navy-glow" aria-hidden="true"></div>
+      <div class="container reveal">
+        <p class="eyebrow eyebrow--dot"><span class="signal-dot" aria-hidden="true"></span>Vamos conversar</p>
+        <h2 id="cta-title">Quer algo assim para a sua empresa?</h2>
+        <p>Conte o seu desafio. Respondemos com um caminho possível.</p>
+        <a class="btn btn--primary btn--lg" href="#" data-wa><i data-icon="whatsapp"></i>Falar no WhatsApp</a>
+        <p class="cta-band__alt">Prefere e-mail? <a href="#" data-email data-fill="email"></a></p>
+      </div>
+      <div class="brand-rule" aria-hidden="true"></div>
+    </section>
+
+  </main>
+
+  <dialog class="modal" id="portfolio-modal" aria-labelledby="portfolio-modal-title">
+    <button type="button" class="modal__close" aria-label="Fechar"><i data-icon="x"></i></button>
+    <div class="modal__scroll" data-modal-content></div>
+  </dialog>
+
+  <footer class="site-footer" data-component="footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/portfolio-data.js"></script>
+  <script src="js/portfolio.js"></script>
+</body>
+</html>

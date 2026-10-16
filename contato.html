@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato — Fale com a Datalyse</title>
+  <meta name="description" content="Fale com a Datalyse pelo WhatsApp, e-mail ou Instagram. Angra dos Reis – RJ, com atendimento remoto em todo o Brasil.">
+  <meta name="theme-color" content="#0B0D2A">
+  <!-- DOMÍNIO: quando o domínio estiver registrado, descomente as linhas canonical, og:url e og:image e troque SEU-DOMINIO -->
+  <!-- <link rel="canonical" href="https://SEU-DOMINIO/contato.html"> -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Datalyse">
+  <meta property="og:title" content="Contato | Datalyse">
+  <meta property="og:description" content="Conte o seu desafio. Respondemos com um caminho possível.">
+  <!-- <meta property="og:url" content="https://SEU-DOMINIO/contato.html"> -->
+  <!-- <meta property="og:image" content="https://SEU-DOMINIO/assets/og-image.png"> -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@500;600&family=Inter:wght@400;500;600&family=Quicksand:wght@400;500&display=swap">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body data-page="contato">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" data-component="header"></header>
+
+  <main id="conteudo">
+
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="navy-grid" aria-hidden="true"></div>
+      <div class="navy-glow" aria-hidden="true"></div>
+      <div class="container">
+        <p class="eyebrow eyebrow--dot"><span class="signal-dot" aria-hidden="true"></span>Contato</p>
+        <h1 id="page-title">Fale com a gente</h1>
+        <p>Conte o seu desafio. Respondemos com um caminho possível — sem compromisso.</p>
+      </div>
+    </section>
+
+    <section class="section section--ice">
+      <div class="container contact">
+
+        <!-- Canais -->
+        <div class="contact__info reveal">
+          <p class="eyebrow">Canais de atendimento</p>
+          <h2>Escolha o canal que preferir.</h2>
+          <p>Atendemos empresas de qualquer segmento e porte. O primeiro passo é uma conversa para entender a sua operação.</p>
+
+          <ul class="channels" role="list">
+            <li>
+              <a class="channel" href="#" data-wa>
+                <span class="icon-box"><i data-icon="whatsapp"></i></span>
+                <span><span class="channel__label">WhatsApp</span><span class="channel__value" data-fill="whatsapp"></span></span>
+                <i data-icon="arrow-up-right" class="channel__go"></i>
+              </a>
+            </li>
+            <li>
+              <a class="channel" href="#" data-email>
+                <span class="icon-box"><i data-icon="mail"></i></span>
+                <span><span class="channel__label">E-mail</span><span class="channel__value" data-fill="email"></span></span>
+                <i data-icon="arrow-up-right" class="channel__go"></i>
+              </a>
+            </li>
+            <li>
+              <a class="channel" href="#" data-instagram>
+                <span class="icon-box"><i data-icon="instagram"></i></span>
+                <span><span class="channel__label">Instagram</span><span class="channel__value" data-fill="instagram"></span></span>
+                <i data-icon="arrow-up-right" class="channel__go"></i>
+              </a>
+            </li>
+            <li>
+              <div class="channel">
+                <span class="icon-box"><i data-icon="pin"></i></span>
+                <span><span class="channel__label">Localização</span><span class="channel__value"><span data-fill="cidade"></span> · Atendimento remoto em todo o Brasil</span></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Formulário -->
+        <div class="contact__form reveal">
+          <div class="form-card">
+            <h2>Envie uma mensagem</h2>
+            <p>Ao enviar, abrimos o WhatsApp com a sua mensagem pronta — é só confirmar o envio.</p>
+
+            <!--
+              Alternativa sem WhatsApp (Formspree):
+              1. Crie um formulário em https://formspree.io e copie o endpoint.
+              2. Troque a tag abaixo por:
+                 <form id="contact-form" action="https://formspree.io/f/SEU_ID" method="POST" novalidate>
+              3. Em js/contato.js, defina USAR_FORMSPREE = true.
+            -->
+            <form id="contact-form" novalidate>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="f-nome">Nome<span class="req" aria-hidden="true">*</span></label>
+                  <input class="input" id="f-nome" name="nome" type="text" autocomplete="name" required aria-describedby="e-nome">
+                  <span class="field__error" id="e-nome">Informe o seu nome.</span>
+                </div>
+                <div class="field">
+                  <label for="f-empresa">Empresa<span class="opt">(opcional)</span></label>
+                  <input class="input" id="f-empresa" name="empresa" type="text" autocomplete="organization">
+                </div>
+                <div class="field">
+                  <label for="f-segmento">Segmento<span class="req" aria-hidden="true">*</span></label>
+                  <select class="input" id="f-segmento" name="segmento" required aria-describedby="e-segmento">
+                    <option value="">Selecione</option>
+                    <option>Hospedagem (pousada, hostel, Airbnb)</option>
+                    <option>Alimentação (restaurante, bar, cafeteria)</option>
+                    <option>Turismo</option>
+                    <option>Material de construção</option>
+                    <option>Construtora</option>
+                    <option>Academia</option>
+                    <option>Clínica e estética</option>
+                    <option>Serviços</option>
+                    <option>Outro</option>
+                  </select>
+                  <span class="field__error" id="e-segmento">Selecione o segmento.</span>
+                </div>
+                <div class="field">
+                  <label for="f-whatsapp">WhatsApp<span class="req" aria-hidden="true">*</span></label>
+                  <input class="input" id="f-whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel-national" placeholder="(24) 99999-9999" required aria-describedby="e-whatsapp">
+                  <span class="field__error" id="e-whatsapp">Informe um WhatsApp com DDD.</span>
+                </div>
+                <div class="field field--full">
+                  <label for="f-email">E-mail<span class="opt">(opcional)</span></label>
+                  <input class="input" id="f-email" name="email" type="email" autocomplete="email" aria-describedby="e-email">
+                  <span class="field__error" id="e-email">Verifique o e-mail informado.</span>
+                </div>
+                <div class="field field--full">
+                  <label for="f-mensagem">Mensagem<span class="req" aria-hidden="true">*</span></label>
+                  <textarea class="input" id="f-mensagem" name="mensagem" rows="5" required aria-describedby="e-mensagem" placeholder="Conte um pouco sobre a sua empresa e o que você gostaria de resolver."></textarea>
+                  <span class="field__error" id="e-mensagem">Escreva uma mensagem curta sobre o seu desafio.</span>
+                </div>
+              </div>
+
+              <div class="form-foot">
+                <button class="btn btn--primary btn--lg btn--block" type="submit"><i data-icon="send"></i>Enviar</button>
+                <p class="form-note"><span aria-hidden="true">*</span> Campos obrigatórios. Usamos seus dados apenas para responder ao contato.</p>
+              </div>
+
+              <div class="form-status" id="form-status" role="status" aria-live="polite" tabindex="-1">
+                <i data-icon="check"></i>
+                <span data-status-text></span>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" data-component="footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contato.js"></script>
+</body>
+</html>

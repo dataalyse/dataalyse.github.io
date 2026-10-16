@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+  <title>Ilustração: organização e estruturação de dados</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4C58F0"/><stop offset=".55" stop-color="#6D2DFC"/><stop offset="1" stop-color="#E91CC0"/></linearGradient>
+  </defs>
+  <!-- dados desorganizados -->
+  <g transform="rotate(-4 110 150)">
+    <rect x="24.5" y="70.5" width="170" height="110" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <path d="M24.5 92.5h170M24.5 114.5h170M24.5 136.5h170M24.5 158.5h170M80.5 70.5v110M138.5 70.5v110" stroke="#EEF0F6"/>
+    <g fill="#DCDFEA"><rect x="32" y="78" width="38" height="6" rx="3"/><rect x="88" y="78" width="40" height="6" rx="3"/><rect x="146" y="78" width="36" height="6" rx="3"/></g>
+    <g fill="#B9A6FF"><rect x="32" y="100" width="30" height="6" rx="3"/><rect x="88" y="122" width="44" height="6" rx="3"/><rect x="146" y="144" width="22" height="6" rx="3"/></g>
+    <g fill="#F7C6EB"><rect x="88" y="100" width="20" height="6" rx="3"/><rect x="32" y="144" width="40" height="6" rx="3"/></g>
+    <rect x="146" y="100" width="34" height="6" rx="3" fill="#DCDFEA"/>
+  </g>
+  <g transform="rotate(5 120 290)">
+    <rect x="40.5" y="226.5" width="150" height="120" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <path d="M40.5 250.5h150M40.5 274.5h150M40.5 298.5h150M40.5 322.5h150M100.5 226.5v120" stroke="#EEF0F6"/>
+    <g fill="#DCDFEA"><rect x="48" y="235" width="40" height="6" rx="3"/><rect x="108" y="235" width="56" height="6" rx="3"/><rect x="48" y="283" width="36" height="6" rx="3"/><rect x="108" y="307" width="48" height="6" rx="3"/></g>
+    <g fill="#F7C6EB"><rect x="48" y="259" width="28" height="6" rx="3"/><rect x="108" y="331" width="30" height="6" rx="3"/></g>
+    <g fill="#B9A6FF"><rect x="108" y="259" width="40" height="6" rx="3"/><rect x="48" y="331" width="44" height="6" rx="3"/></g>
+  </g>
+
+  <!-- seta -->
+  <path d="M222 210h52" stroke="url(#g)" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M268 202l9 8-9 8" fill="none" stroke="#E91CC0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- modelo organizado -->
+  <g stroke="#B9A6FF" stroke-width="1.5" fill="none">
+    <path d="M410 210 L346 116"/><path d="M410 210 L474 116"/><path d="M410 210 L346 312"/><path d="M410 210 L474 312"/>
+  </g>
+  <rect x="350.5" y="176.5" width="120" height="68" rx="8" fill="#0B0D2A"/>
+  <rect x="351" y="177" width="119" height="3" fill="url(#g)"/>
+  <rect x="366" y="194" width="56" height="7" rx="3.5" fill="#fff"/>
+  <g fill="#fff" opacity=".4"><rect x="366" y="210" width="88" height="4" rx="2"/><rect x="366" y="220" width="70" height="4" rx="2"/><rect x="366" y="230" width="80" height="4" rx="2"/></g>
+
+  <g>
+    <rect x="296.5" y="80.5" width="100" height="62" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <rect x="424.5" y="80.5" width="100" height="62" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <rect x="296.5" y="282.5" width="100" height="62" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <rect x="424.5" y="282.5" width="100" height="62" rx="6" fill="#fff" stroke="#E4E6F0"/>
+    <g fill="#6D2DFC"><rect x="308" y="92" width="44" height="6" rx="3"/><rect x="436" y="92" width="38" height="6" rx="3"/><rect x="308" y="294" width="50" height="6" rx="3"/><rect x="436" y="294" width="42" height="6" rx="3"/></g>
+    <g fill="#E4E6F0">
+      <rect x="308" y="106" width="76" height="4" rx="2"/><rect x="308" y="116" width="60" height="4" rx="2"/><rect x="308" y="126" width="68" height="4" rx="2"/>
+      <rect x="436" y="106" width="76" height="4" rx="2"/><rect x="436" y="116" width="64" height="4" rx="2"/><rect x="436" y="126" width="52" height="4" rx="2"/>
+      <rect x="308" y="308" width="70" height="4" rx="2"/><rect x="308" y="318" width="76" height="4" rx="2"/><rect x="308" y="328" width="56" height="4" rx="2"/>
+      <rect x="436" y="308" width="62" height="4" rx="2"/><rect x="436" y="318" width="76" height="4" rx="2"/><rect x="436" y="328" width="66" height="4" rx="2"/>
+    </g>
+  </g>
+  <g fill="#fff" stroke="#6D2DFC" stroke-width="1.5"><circle cx="346" cy="142" r="3.5"/><circle cx="474" cy="142" r="3.5"/><circle cx="346" cy="282" r="3.5"/><circle cx="474" cy="282" r="3.5"/></g>
+</svg>

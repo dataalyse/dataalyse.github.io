@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datalyse — Análise de dados e dashboards de gestão</title>
+  <meta name="description" content="Transformamos os dados da sua empresa em decisões. Dashboards de gestão em Power BI e análise de dados sob medida — além de automações, aplicativos e sistemas no Microsoft 365.">
+  <meta name="theme-color" content="#0B0D2A">
+  <!-- DOMÍNIO: quando o domínio estiver registrado, descomente as linhas canonical, og:url e og:image e troque SEU-DOMINIO -->
+  <!-- <link rel="canonical" href="https://SEU-DOMINIO/"> -->
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Datalyse">
+  <meta property="og:title" content="Datalyse — Análise de dados e dashboards de gestão">
+  <meta property="og:description" content="Dashboards e análises sob medida para você acompanhar os números que importam e decidir com segurança.">
+  <!-- <meta property="og:url" content="https://SEU-DOMINIO/"> -->
+  <!-- <meta property="og:image" content="https://SEU-DOMINIO/assets/og-image.png"> -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@500;600&family=Inter:wght@400;500;600&family=Quicksand:wght@400;500&display=swap">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body data-page="inicio">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" data-component="header"></header>
+
+  <main id="conteudo">
+
+    <!-- ================================================================
+         HERO
+         ================================================================ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="navy-grid" aria-hidden="true"></div>
+      <div class="navy-glow" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow--dot"><span class="signal-dot" aria-hidden="true"></span>Análise de dados e dashboards de gestão</p>
+          <h1 id="hero-title">Transformamos os dados da sua empresa em <span class="hl">decisões.</span></h1>
+          <p class="hero-sub">Criamos dashboards e análises sob medida para você acompanhar os números que importam e decidir com segurança. E, quando a operação pede, desenvolvemos automações, aplicativos e sistemas no Microsoft 365.</p>
+          <div class="hero-actions">
+            <a class="btn btn--primary btn--lg" href="contato.html">Fale com um especialista <i data-icon="arrow-right" class="icon--arrow"></i></a>
+            <a class="btn btn--ghost-light btn--lg" href="solucoes.html">Conheça nossas soluções</a>
+          </div>
+        </div>
+
+        <!-- Ilustração: painel demonstrativo -->
+        <div class="hero-visual" role="img" aria-label="Ilustração de um painel de indicadores com dados demonstrativos">
+          <div class="mock-dash" aria-hidden="true">
+            <div class="mock-dash__top">
+              <div>
+                <span class="mock-dash__title">Visão geral do negócio</span>
+                <span class="mock-dash__sub">Últimos 12 meses</span>
+              </div>
+              <span class="demo-badge">Demonstrativo</span>
+            </div>
+
+            <div class="mock-dash__kpis">
+              <div class="mock-kpi">
+                <span class="mock-kpi__label">Faturamento</span>
+                <span class="mock-kpi__value">R$ 184,2 mil</span>
+                <span class="mock-kpi__delta">+8,4%</span>
+              </div>
+              <div class="mock-kpi">
+                <span class="mock-kpi__label">Ticket médio</span>
+                <span class="mock-kpi__value">R$ 126,40</span>
+                <span class="mock-kpi__delta">+3,1%</span>
+              </div>
+              <div class="mock-kpi">
+                <span class="mock-kpi__label">Margem</span>
+                <span class="mock-kpi__value">31,5%</span>
+                <span class="mock-kpi__delta">+1,2 p.p.</span>
+              </div>
+            </div>
+
+            <div class="mock-dash__charts">
+              <div class="mock-panel mock-panel--line">
+                <span class="mock-panel__label">Faturamento mensal</span>
+                <svg viewBox="0 0 320 130" preserveAspectRatio="none" class="mock-line">
+                  <defs>
+                    <linearGradient id="heroLine" x1="0" y1="0" x2="1" y2="0">
+                      <stop offset="0" stop-color="#4C58F0"/>
+                      <stop offset=".55" stop-color="#6D2DFC"/>
+                      <stop offset="1" stop-color="#E91CC0"/>
+                    </linearGradient>
+                    <linearGradient id="heroArea" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="#6D2DFC" stop-opacity=".16"/>
+                      <stop offset="1" stop-color="#6D2DFC" stop-opacity="0"/>
+                    </linearGradient>
+                  </defs>
+                  <g stroke="#E9EBF3" stroke-width="1">
+                    <path d="M0 32.5h320M0 65h320M0 97.5h320"/>
+                  </g>
+                  <path d="M0 98 L29 92 L58 96 L87 80 L116 84 L145 66 L174 70 L203 54 L232 58 L261 40 L290 44 L320 26 L320 130 L0 130Z" fill="url(#heroArea)"/>
+                  <path class="mock-line__path" d="M0 98 L29 92 L58 96 L87 80 L116 84 L145 66 L174 70 L203 54 L232 58 L261 40 L290 44 L320 26" fill="none" stroke="url(#heroLine)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+                  <path d="M0 108 L29 104 L58 106 L87 98 L116 99 L145 90 L174 92 L203 84 L232 86 L261 76 L290 79 L320 70" fill="none" stroke="#C9CDE0" stroke-width="1.5" stroke-dasharray="4 4" vector-effect="non-scaling-stroke"/>
+                </svg>
+                <div class="mock-legend"><span><i class="lg lg--brand"></i>Este ano</span><span><i class="lg lg--muted"></i>Ano anterior</span></div>
+              </div>
+              <div class="mock-panel mock-panel--bars">
+                <span class="mock-panel__label">Receita por canal</span>
+                <ul class="mock-bars" role="list">
+                  <li><span>Loja</span><b style="--w:86%"></b></li>
+                  <li><span>Site</span><b style="--w:64%"></b></li>
+                  <li><span>Parceiros</span><b style="--w:42%"></b></li>
+                  <li><span>Outros</span><b style="--w:20%"></b></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="mock-insight" aria-hidden="true">
+            <div class="mock-insight__head">
+              <i data-icon="target"></i>
+              <span>Destaque da análise</span>
+            </div>
+            <p class="mock-insight__title">Margem da categoria Acessórios <b>−2,1 p.p.</b></p>
+            <p class="mock-insight__text">Custo do principal fornecedor subiu 9% no trimestre.</p>
+            <span class="mock-insight__foot">Sugestão · revisar preço de venda</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         O QUE FAZEMOS
+         ================================================================ -->
+    <section class="section" aria-labelledby="oque-title">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">O que fazemos</p>
+            <h2 id="oque-title">Análise de dados e dashboards para quem precisa decidir.</h2>
+            <p>Nosso foco é dar à gestão uma visão clara e confiável do negócio: os indicadores certos, atualizados e fáceis de interpretar.</p>
+          </div>
+          <a class="link-arrow" href="solucoes.html">Ver todas as soluções <i data-icon="arrow-right"></i></a>
+        </div>
+
+        <div class="focus-grid" data-stagger>
+          <article class="card card--interactive focus-card focus-card--main reveal">
+            <div class="focus-card__top">
+              <span class="icon-box"><i data-icon="chart"></i></span>
+              <span class="tag">Nosso foco</span>
+            </div>
+            <h3>Dashboards de gestão</h3>
+            <p>Painéis em Power BI com os indicadores que importam para o seu negócio — atualizados automaticamente e acessíveis do computador ou do celular.</p>
+            <ul class="check-list">
+              <li><i data-icon="check"></i>Indicadores definidos junto com a gestão</li>
+              <li><i data-icon="check"></i>Atualização automática a partir das suas fontes</li>
+              <li><i data-icon="check"></i>Filtros por período, unidade, produto ou equipe</li>
+            </ul>
+            <a class="link-arrow stretched" href="solucoes.html#bi">Saiba mais <i data-icon="arrow-right"></i><span class="sr-only"> sobre dashboards de gestão</span></a>
+          </article>
+          <article class="card card--interactive focus-card reveal">
+            <div class="focus-card__top">
+              <span class="icon-box"><i data-icon="database"></i></span>
+              <span class="tag">Nosso foco</span>
+            </div>
+            <h3>Análise de dados</h3>
+            <p>Investigamos os números para responder às perguntas do negócio — e organizamos a base para que cada indicador seja confiável.</p>
+            <ul class="check-list">
+              <li><i data-icon="check"></i>Diagnóstico e organização das fontes de dados</li>
+              <li><i data-icon="check"></i>Análises de resultado, margem e tendências</li>
+              <li><i data-icon="check"></i>Conclusões e recomendações claras</li>
+            </ul>
+            <a class="link-arrow stretched" href="solucoes.html#dados">Saiba mais <i data-icon="arrow-right"></i><span class="sr-only"> sobre análise de dados</span></a>
+          </article>
+        </div>
+
+        <div class="complementary reveal">
+          <div class="complementary__label">
+            <h3>Também desenvolvemos</h3>
+            <p>Somos especialistas em desenvolvimento no <strong>Microsoft 365</strong> e em sistemas sob medida — soluções que completam a gestão dos seus dados.</p>
+          </div>
+          <ul class="complementary__list" role="list">
+            <li><a href="solucoes.html#automacao"><i data-icon="workflow"></i><span><strong>Automação de processos</strong>Power Automate e Python: relatórios, avisos e integrações rodando sozinhos</span></a></li>
+            <li><a href="solucoes.html#aplicativos"><i data-icon="smartphone"></i><span><strong>Aplicativos sob medida</strong>Power Apps e SharePoint: cadastros, controles e formulários da equipe</span></a></li>
+            <li><a href="solucoes.html#sites"><i data-icon="monitor"></i><span><strong>Sites e sistemas web</strong>Sites institucionais, áreas de cliente e painéis administrativos</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         PARA QUALQUER SEGMENTO
+         ================================================================ -->
+    <section class="section section--ice" aria-labelledby="seg-title">
+      <div class="container segments-home">
+        <div class="segments-home__copy reveal">
+          <p class="eyebrow">Para qualquer segmento</p>
+          <h2 id="seg-title">Cada negócio tem seus números. <span class="hl">Nós sabemos onde olhar.</span></h2>
+          <p class="lead">Não encontrou o seu? Atendemos qualquer segmento — a solução é desenhada a partir da sua operação.</p>
+          <a class="btn btn--secondary" href="segmentos.html">Ver soluções por segmento <i data-icon="arrow-right" class="icon--arrow"></i></a>
+        </div>
+
+        <ul class="segment-tiles" role="list" data-stagger>
+          <li class="reveal"><a href="segmentos.html#hospedagem"><i data-icon="bed"></i><span>Hospedagem</span></a></li>
+          <li class="reveal"><a href="segmentos.html#alimentacao"><i data-icon="utensils"></i><span>Alimentação</span></a></li>
+          <li class="reveal"><a href="segmentos.html#turismo"><i data-icon="compass"></i><span>Turismo</span></a></li>
+          <li class="reveal"><a href="segmentos.html#material-de-construcao"><i data-icon="bricks"></i><span>Material de construção</span></a></li>
+          <li class="reveal"><a href="segmentos.html#construtoras"><i data-icon="building"></i><span>Construtoras</span></a></li>
+          <li class="reveal"><a href="segmentos.html#academias"><i data-icon="dumbbell"></i><span>Academias</span></a></li>
+          <li class="reveal"><a href="segmentos.html#clinicas"><i data-icon="sparkles"></i><span>Clínicas e estética</span></a></li>
+          <li class="reveal"><a href="segmentos.html#servicos"><i data-icon="briefcase"></i><span>Serviços</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         COMO TRABALHAMOS
+         ================================================================ -->
+    <section class="section section--navy process" aria-labelledby="proc-title">
+      <div class="navy-grid" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Como trabalhamos</p>
+          <h2 id="proc-title">Um processo claro, do primeiro contato ao uso no dia a dia.</h2>
+        </div>
+
+        <ol class="steps" role="list" data-stagger>
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <h3>Diagnóstico</h3>
+            <p>Entendemos sua operação, seus dados e o que você precisa acompanhar.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <h3>Proposta</h3>
+            <p>Apresentamos a solução, prazos e investimento de forma transparente.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <h3>Desenvolvimento</h3>
+            <p>Construímos com validações ao longo do caminho, não só no final.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">04</span>
+            <h3>Entrega e suporte</h3>
+            <p>Treinamos sua equipe e acompanhamos o uso.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         VEJA NA PRÁTICA (destaque do portfólio)
+         ================================================================ -->
+    <section class="section" aria-labelledby="port-title">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">Portfólio</p>
+            <h2 id="port-title">Veja na prática</h2>
+            <p>Exemplos de painéis que desenvolvemos. Os dados exibidos são demonstrativos.</p>
+          </div>
+          <a class="link-arrow" href="portfolio.html">Ver portfólio completo <i data-icon="arrow-right"></i></a>
+        </div>
+
+        <div class="work-grid work-grid--3" data-stagger>
+          <article class="work-card card--interactive reveal">
+            <div class="work-card__media">
+              <img src="assets/illustrations/portfolio-hospedagem.svg" alt="Mockup de dashboard de hospedagem com ocupação, diária média e receita por canal" width="640" height="400" loading="lazy">
+              <span class="demo-badge">Demonstrativo</span>
+            </div>
+            <div class="work-card__body">
+              <span class="tag">Hospedagem</span>
+              <h3><a class="stretched" href="portfolio.html#dashboard-hospedagem">Dashboard de hospedagem</a></h3>
+              <p>Ocupação, diária média e receita por canal em um só painel.</p>
+            </div>
+          </article>
+          <article class="work-card card--interactive reveal">
+            <div class="work-card__media">
+              <img src="assets/illustrations/portfolio-restaurante.svg" alt="Mockup de dashboard de restaurante com ticket médio, CMV e produtos mais vendidos" width="640" height="400" loading="lazy">
+              <span class="demo-badge">Demonstrativo</span>
+            </div>
+            <div class="work-card__body">
+              <span class="tag">Alimentação</span>
+              <h3><a class="stretched" href="portfolio.html#dashboard-restaurante">Dashboard de restaurante</a></h3>
+              <p>Ticket médio, CMV e itens mais vendidos por dia e horário.</p>
+            </div>
+          </article>
+          <article class="work-card card--interactive reveal">
+            <div class="work-card__media">
+              <img src="assets/illustrations/portfolio-material-construcao.svg" alt="Mockup de dashboard de loja de material de construção com giro de estoque e curva ABC" width="640" height="400" loading="lazy">
+              <span class="demo-badge">Demonstrativo</span>
+            </div>
+            <div class="work-card__body">
+              <span class="tag">Material de construção</span>
+              <h3><a class="stretched" href="portfolio.html#dashboard-material-construcao">Dashboard de material de construção</a></h3>
+              <p>Giro de estoque, curva ABC e desempenho por vendedor.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         POR QUE A DATALYSE
+         ================================================================ -->
+    <section class="section section--ice" aria-labelledby="why-title">
+      <div class="container why">
+        <div class="why__head reveal">
+          <p class="eyebrow">Por que a <span class="dl-name">datalyse</span></p>
+          <h2 id="why-title">Seriedade de grande consultoria, com a proximidade que o seu negócio precisa.</h2>
+          <a class="link-arrow" href="sobre.html">Conheça a <span class="dl-name">datalyse</span> <i data-icon="arrow-right"></i></a>
+        </div>
+        <ul class="why__grid" role="list" data-stagger>
+          <li class="why-item reveal">
+            <span class="icon-box"><i data-icon="target"></i></span>
+            <div>
+              <h3>Sob medida</h3>
+              <p>Nada de pacote pronto: a solução nasce da sua realidade.</p>
+            </div>
+          </li>
+          <li class="why-item reveal">
+            <span class="icon-box"><i data-icon="layers"></i></span>
+            <div>
+              <h3>Experiência corporativa</h3>
+              <p>Experiência em empresa de grande porte, aplicada à realidade do seu negócio.</p>
+            </div>
+          </li>
+          <li class="why-item reveal">
+            <span class="icon-box"><i data-icon="users"></i></span>
+            <div>
+              <h3>Atendimento próximo</h3>
+              <p>Atendimento direto com especialistas, do diagnóstico à entrega.</p>
+            </div>
+          </li>
+          <li class="why-item reveal">
+            <span class="icon-box"><i data-icon="plug"></i></span>
+            <div>
+              <h3>Especialistas Microsoft</h3>
+              <p>Power BI, Power Apps, Power Automate e SharePoint — soluções construídas no ecossistema que sua empresa já usa.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         PROVA SOCIAL — estrutura reservada, propositalmente vazia.
+         Não inventar clientes, depoimentos ou números. Quando houver
+         depoimentos reais autorizados, descomentar e preencher.
+    <section class="section" aria-labelledby="prova-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Quem confia na <span class="dl-name">datalyse</span></p>
+          <h2 id="prova-title">O que dizem nossos clientes</h2>
+        </div>
+        <div class="testimonials-grid">
+          <figure class="card">
+            <blockquote><p>EDITAR — depoimento real</p></blockquote>
+            <figcaption>EDITAR — nome, cargo, empresa</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+         ================================================================ -->
+
+    <!-- ================================================================
+         CTA FINAL
+         ================================================================ -->
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="navy-glow" aria-hidden="true"></div>
+      <div class="container reveal">
+        <p class="eyebrow eyebrow--dot"><span class="signal-dot" aria-hidden="true"></span>Vamos conversar</p>
+        <h2 id="cta-title">Vamos conversar sobre os dados da sua empresa?</h2>
+        <p>Conte o seu desafio. Respondemos com um caminho possível.</p>
+        <a class="btn btn--primary btn--lg" href="#" data-wa><i data-icon="whatsapp"></i>Falar no WhatsApp</a>
+        <p class="cta-band__alt">Prefere e-mail? <a href="#" data-email data-fill="email"></a></p>
+      </div>
+      <div class="brand-rule" aria-hidden="true"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" data-component="footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

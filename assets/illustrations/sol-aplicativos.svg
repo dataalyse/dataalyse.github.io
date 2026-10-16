@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+  <title>Ilustração: aplicativos sob medida</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4C58F0"/><stop offset=".55" stop-color="#6D2DFC"/><stop offset="1" stop-color="#E91CC0"/></linearGradient>
+  </defs>
+  <!-- tablet -->
+  <rect x="24" y="52" width="340" height="300" rx="16" fill="#0B0D2A"/>
+  <rect x="34" y="62" width="320" height="280" rx="9" fill="#fff"/>
+  <rect x="34" y="62" width="88" height="280" rx="9" fill="#F6F7FB"/>
+  <path d="M122 62v280" stroke="#E4E6F0"/>
+  <rect x="48" y="78" width="20" height="20" rx="5" fill="url(#g)"/>
+  <g fill="#DCDFEA"><rect x="48" y="118" width="60" height="6" rx="3"/><rect x="48" y="140" width="52" height="6" rx="3"/><rect x="48" y="162" width="58" height="6" rx="3"/><rect x="48" y="184" width="44" height="6" rx="3"/></g>
+  <rect x="44" y="134" width="70" height="18" rx="4" fill="#EEEAFE"/><rect x="48" y="140" width="52" height="6" rx="3" fill="#6D2DFC"/>
+  <rect x="140" y="80" width="110" height="8" rx="4" fill="#14172E"/>
+  <rect x="290" y="76" width="50" height="18" rx="4" fill="url(#g)"/>
+  <g>
+    <rect x="140.5" y="110.5" width="200" height="40" rx="5" fill="#fff" stroke="#E4E6F0"/>
+    <rect x="140.5" y="158.5" width="200" height="40" rx="5" fill="#fff" stroke="#E4E6F0"/>
+    <rect x="140.5" y="206.5" width="200" height="40" rx="5" fill="#fff" stroke="#E4E6F0"/>
+    <rect x="140.5" y="254.5" width="200" height="40" rx="5" fill="#fff" stroke="#E4E6F0"/>
+    <g fill="#14172E"><rect x="154" y="122" width="90" height="6" rx="3"/><rect x="154" y="170" width="74" height="6" rx="3"/><rect x="154" y="218" width="84" height="6" rx="3"/><rect x="154" y="266" width="66" height="6" rx="3"/></g>
+    <g fill="#DCDFEA"><rect x="154" y="134" width="56" height="4" rx="2"/><rect x="154" y="182" width="62" height="4" rx="2"/><rect x="154" y="230" width="50" height="4" rx="2"/><rect x="154" y="278" width="58" height="4" rx="2"/></g>
+    <rect x="282" y="123" width="46" height="14" rx="7" fill="#E6F4EE"/>
+    <rect x="282" y="171" width="46" height="14" rx="7" fill="#EEEAFE"/>
+    <rect x="282" y="219" width="46" height="14" rx="7" fill="#FCE8F7"/>
+    <rect x="282" y="267" width="46" height="14" rx="7" fill="#E6F4EE"/>
+  </g>
+
+  <!-- celular -->
+  <rect x="352" y="96" width="176" height="300" rx="24" fill="#0B0D2A"/>
+  <rect x="360" y="104" width="160" height="284" rx="17" fill="#fff"/>
+  <rect x="418" y="111" width="44" height="7" rx="3.5" fill="#0B0D2A"/>
+  <rect x="376" y="138" width="96" height="9" rx="4.5" fill="#14172E"/>
+  <rect x="376" y="153" width="32" height="2.5" rx="1" fill="url(#g)"/>
+  <g>
+    <rect x="376" y="172" width="40" height="4" rx="2" fill="#8A8DA8"/>
+    <rect x="376.5" y="180.5" width="128" height="26" rx="5" fill="#fff" stroke="#D3D6E4"/>
+    <rect x="386" y="191" width="70" height="5" rx="2.5" fill="#14172E"/>
+    <rect x="376" y="218" width="34" height="4" rx="2" fill="#8A8DA8"/>
+    <rect x="376.5" y="226.5" width="128" height="26" rx="5" fill="#fff" stroke="#6D2DFC"/>
+    <rect x="386" y="237" width="54" height="5" rx="2.5" fill="#14172E"/>
+    <rect x="376" y="264" width="46" height="4" rx="2" fill="#8A8DA8"/>
+    <rect x="376.5" y="272.5" width="60" height="26" rx="5" fill="#EEEAFE" stroke="#B9A6FF"/>
+    <rect x="444.5" y="272.5" width="60" height="26" rx="5" fill="#fff" stroke="#D3D6E4"/>
+    <rect x="388" y="283" width="36" height="5" rx="2.5" fill="#6D2DFC"/>
+    <rect x="456" y="283" width="36" height="5" rx="2.5" fill="#DCDFEA"/>
+  </g>
+  <rect x="376" y="320" width="128" height="34" rx="6" fill="url(#g)"/>
+  <rect x="416" y="334.5" width="48" height="5" rx="2.5" fill="#fff"/>
+  <rect x="418" y="370" width="44" height="4" rx="2" fill="#14172E" opacity=".18"/>
+</svg>

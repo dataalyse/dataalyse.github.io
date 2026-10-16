@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+  <title>Ilustração: dashboards e BI</title>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4C58F0"/><stop offset=".55" stop-color="#6D2DFC"/><stop offset="1" stop-color="#E91CC0"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D2DFC" stop-opacity=".18"/><stop offset="1" stop-color="#6D2DFC" stop-opacity="0"/></linearGradient>
+  </defs>
+  <!-- Painel principal -->
+  <rect x="20.5" y="40.5" width="400" height="260" rx="8" fill="#fff" stroke="#E4E6F0"/>
+  <rect x="40" y="62" width="120" height="8" rx="4" fill="#14172E"/>
+  <rect x="40" y="78" width="72" height="5" rx="2.5" fill="#DCDFEA"/>
+  <g fill="#F6F7FB" stroke="#E4E6F0"><rect x="300.5" y="58.5" width="48" height="20" rx="4"/><rect x="354.5" y="58.5" width="48" height="20" rx="4"/></g>
+  <g stroke="#EEF0F6"><path d="M40 140h360M40 190h360M40 240h360"/></g>
+  <path d="M40 236 L80 220 L120 226 L160 196 L200 204 L240 170 L280 178 L320 146 L360 152 L400 118 L400 280 L40 280Z" fill="url(#a)"/>
+  <path d="M40 236 L80 220 L120 226 L160 196 L200 204 L240 170 L280 178 L320 146 L360 152 L400 118" fill="none" stroke="url(#g)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M40 252 L80 246 L120 248 L160 234 L200 238 L240 222 L280 226 L320 208 L360 212 L400 196" fill="none" stroke="#C9CDE0" stroke-width="2" stroke-dasharray="5 5"/>
+  <circle cx="320" cy="146" r="5" fill="#fff" stroke="#6D2DFC" stroke-width="2.5"/>
+  <rect x="270" y="104" width="100" height="28" rx="5" fill="#0B0D2A"/>
+  <rect x="280" y="113" width="34" height="4" rx="2" fill="#fff" opacity=".5"/>
+  <rect x="280" y="121" width="56" height="5" rx="2.5" fill="#fff"/>
+
+  <!-- KPI -->
+  <rect x="330.5" y="232.5" width="200" height="96" rx="8" fill="#fff" stroke="#E4E6F0"/>
+  <rect x="331" y="233" width="199" height="3" fill="url(#g)"/>
+  <rect x="350" y="254" width="64" height="5" rx="2.5" fill="#DCDFEA"/>
+  <text x="350" y="292" font-size="28" font-weight="600" fill="#14172E" font-family="'IBM Plex Sans', 'Segoe UI', Arial, sans-serif" letter-spacing="-.5">+18%</text>
+  <rect x="350" y="304" width="96" height="4" rx="2" fill="#E4E6F0"/>
+  <g fill="#B9A6FF"><rect x="464" y="290" width="8" height="18" rx="1.5"/><rect x="476" y="282" width="8" height="26" rx="1.5"/><rect x="488" y="286" width="8" height="22" rx="1.5"/></g>
+  <rect x="500" y="270" width="8" height="38" rx="1.5" fill="#6D2DFC"/>
+
+  <!-- Rosca -->
+  <rect x="60.5" y="264.5" width="230" height="120" rx="8" fill="#fff" stroke="#E4E6F0"/>
+  <g transform="rotate(-90 120 324)" fill="none" stroke-width="13">
+    <circle cx="120" cy="324" r="34" stroke="#F1EFFD"/>
+    <circle cx="120" cy="324" r="34" stroke="#6D2DFC" stroke-dasharray="96 213.6"/>
+    <circle cx="120" cy="324" r="34" stroke="#4C58F0" stroke-dasharray="58 213.6" stroke-dashoffset="-96"/>
+    <circle cx="120" cy="324" r="34" stroke="#E91CC0" stroke-dasharray="34 213.6" stroke-dashoffset="-154"/>
+  </g>
+  <g>
+    <rect x="176" y="296" width="8" height="8" rx="2" fill="#6D2DFC"/><rect x="190" y="298" width="74" height="5" rx="2.5" fill="#DCDFEA"/>
+    <rect x="176" y="318" width="8" height="8" rx="2" fill="#4C58F0"/><rect x="190" y="320" width="58" height="5" rx="2.5" fill="#DCDFEA"/>
+    <rect x="176" y="340" width="8" height="8" rx="2" fill="#E91CC0"/><rect x="190" y="342" width="44" height="5" rx="2.5" fill="#DCDFEA"/>
+  </g>
+</svg>
